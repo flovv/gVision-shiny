@@ -9,13 +9,10 @@ require(RCurl)
 
 ###################### private KEYS
 
-#971444992470-2nadu8mhgf71gmd2bfu5679mf7jj6g25.apps.googleusercontent.com
-#nteG4So4g8xFnYGLVdG-C_Hk
-options("googleAuthR.webapp.client_id" = "971444992470-2nadu8mhgf71gmd2bfu5679mf7jj6g25.apps.googleusercontent.com")
-options("googleAuthR.webapp.client_secret" = "nteG4So4g8xFnYGLVdG-C_Hk")
 
-#options("googleAuthR.client_id" = "971444992470-00go8mg3ld7glp53fmc6uqlbd0207km5.apps.googleusercontent.com")
-#options("googleAuthR.client_secret" = "GOzGBbDc1mGHhANcAyXTG-xo")
+options("googleAuthR.webapp.client_id" = "useYourOwn.apps.googleusercontent.com")
+options("googleAuthR.webapp.client_secret" = "nteXXX")
+
 
 ### define scope!
 options("googleAuthR.scopes.selected" = c("https://www.googleapis.com/auth/cloud-platform"))
